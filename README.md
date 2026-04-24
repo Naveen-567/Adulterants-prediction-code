@@ -31,8 +31,6 @@ The framework operates through an automated pipeline for preprocessing, spectral
 * **Spectral Slicing:** Automated NIR region selection for urea ($4500-5500~cm^{-1}$), ammonium sulfate ($7000-8000~cm^{-1}$), sugar ($9000-10000~cm^{-1}$), and $H_2O_2$ ($6100-6900~cm^{-1}$).
 * **Optimization:** Hyperparameters fine-tuned via grid search (learning rate: 0.015, max depth: 2, estimators: 600).
 
----
-
 ## Getting Started
 
 ### Prerequisites
