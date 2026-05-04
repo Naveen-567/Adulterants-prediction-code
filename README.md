@@ -28,7 +28,7 @@ The framework operates through an automated pipeline for preprocessing, spectral
 
 ### Model Specifications
 * **Preprocessing:** Savitzky-Golay filtering (second derivative, 11 filter windows, third-order polynomial) performed via the Nippy Python framework.
-* **Spectral Slicing:** Automated NIR region selection for urea ($4500-5500~cm^{-1}$), ammonium sulfate ($7000-8000~cm^{-1}$), sugar ($9000-10000~cm^{-1}$), and $H_2O_2$ ($6100-6900~cm^{-1}$).
+* **Spectral Slicing:** Automated NIR region selection for urea, ammonium sulfate, sugar, and $H_2O_2$.
 * **Optimization:** Hyperparameters fine-tuned via grid search (learning rate: 0.015, max depth: 2, estimators: 600).
 
 ## Getting Started
